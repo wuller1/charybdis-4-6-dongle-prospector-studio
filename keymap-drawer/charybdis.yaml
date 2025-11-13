@@ -50,14 +50,14 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT WIN
-  - {t: SPACE, h: Navigation}
+  - {t: SPACE, h: Nav}
   - Symbol
   - Symbol
-  - {t: SPACE, h: Navigation}
+  - {t: SPACE, h: Nav}
   - LEFT ALT
   - LEFT CONTROL
   - RIGHT CONTROL
-  Navigation:
+  Nav:
   - ''
   - ''
   - ''
