@@ -25,18 +25,6 @@
 &caps_word { /delete-property/ ignore-modifiers; };
 
 / {
-
-    trackball_scroll_listener {
-        compatible = "zmk,input-behavior-listener";
-        device = <&vtrackball>;
-        layers = <3>;
-        evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_HWHEEL>;
-        y-input-code = <INPUT_REL_WHEEL>;
-        y-invert;
-        bindings = <&ib_hwheel_scaler 1 14>, <&ib_wheel_scaler 1 14>;
-    };
-
     combos {
         compatible = "zmk,combos";
         timeout-ms = <20>;

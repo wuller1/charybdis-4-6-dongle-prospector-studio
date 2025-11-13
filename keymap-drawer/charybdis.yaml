@@ -51,8 +51,8 @@ layers:
   - RIGHT SHIFT
   - LEFT WIN
   - {t: SPACE, h: Nav}
-  - Symbol
-  - Symbol
+  - Num
+  - Num
   - {t: SPACE, h: Nav}
   - LEFT ALT
   - LEFT CONTROL
@@ -98,7 +98,7 @@ layers:
   - ''
   - ''
   - Base
-  - Symbol
+  - Num
   - ''
   - ''
   - ''
@@ -114,7 +114,7 @@ layers:
   - VOL DN
   - VOL UP
   - ''
-  Symbol:
+  Num:
   - DEV TOOLS
   - F1
   - F2
@@ -171,15 +171,15 @@ layers:
   - VOL DN
   - VOL UP
   - LEFT ALT
-  Game: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  SCROLL: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [0, 11]
   k: BOOT LDR
 - p: [0, 4]
   k: ZMK Studio
 - p: [44, 45]
-  k: {t: Game, h: toggle}
+  k: {t: SCROLL, h: toggle}
 - p: [20, 21]
   k: ENTER
 - p: [19, 20]
