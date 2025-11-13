@@ -53,10 +53,10 @@ layers:
   - {t: SPACE, h: Nav}
   - LEFT WIN
   - LEFT ALT
-  - RIGHT CONTROL
+  - LEFT CONTROL
   - {t: SPACE, h: Nav}
   - Num
-  - LEFT CONTROL
+  - RIGHT CONTROL
   Nav:
   - ''
   - ''
@@ -110,10 +110,10 @@ layers:
   - {type: held}
   - ''
   - VOL DN
-  - ''
-  - ''
-  - ''
   - VOLUME UP
+  - ''
+  - ''
+  - ''
   Num:
   - DEV TOOLS
   - F1
@@ -163,13 +163,13 @@ layers:
   - '3'
   - \
   - RIGHT SHIFT
-  - {t: INS, type: held}
+  - {type: held}
   - ''
-  - ''
-  - ''
-  - '0'
+  - INSERT
   - VOL DN
   - VOL UP
+  - '0'
+  - ''
   - LEFT ALT
   SCROLL: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
