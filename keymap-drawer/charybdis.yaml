@@ -53,7 +53,7 @@ layers:
   - {t: SPACE, h: Nav}
   - LEFT WIN
   - LEFT ALT
-  - LEFT CONTROL
+  - RIGHT CONTROL
   - {t: SPACE, h: Nav}
   - Num
   - LEFT CONTROL
@@ -109,11 +109,11 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
-  - ''
   - VOL DN
-  - VOL UP
   - ''
+  - ''
+  - ''
+  - VOLUME UP
   Num:
   - DEV TOOLS
   - F1
