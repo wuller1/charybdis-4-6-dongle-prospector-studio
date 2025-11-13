@@ -49,14 +49,14 @@ layers:
   - .
   - /
   - RIGHT SHIFT
+  - Num
+  - {t: SPACE, h: Nav}
   - LEFT WIN
-  - {t: SPACE, h: Nav}
-  - Num
-  - Num
-  - {t: SPACE, h: Nav}
   - LEFT ALT
   - LEFT CONTROL
-  - RIGHT CONTROL
+  - {t: SPACE, h: Nav}
+  - LEFT CONTROL
+  - Num
   Nav:
   - ''
   - ''
@@ -163,9 +163,9 @@ layers:
   - '3'
   - \
   - RIGHT SHIFT
-  - INS
+  - {t: INS, type: held}
   - ''
-  - {type: held}
+  - ''
   - ''
   - '0'
   - VOL DN
