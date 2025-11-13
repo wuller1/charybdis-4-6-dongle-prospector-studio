@@ -37,64 +37,6 @@
         bindings = <&ib_hwheel_scaler 1 14>, <&ib_wheel_scaler 1 14>;
     };
 
-    behaviors {
-        hml: hml {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <250>;
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
-            hold-trigger-on-release;
-            bindings = <&kp>, <&kp>;
-        };
-
-        hmr: hmr {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <250>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;
-            bindings = <&kp>, <&kp>;
-        };
-
-        hml_s: hml_s {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <0>;
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
-            hold-trigger-on-release;
-            bindings = <&kp>, <&kp>;
-        };
-
-        hmr_s: hmr_s {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <2000>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <0>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;
-            bindings = <&kp>, <&kp>;
-        };
-
-        smart_shift: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&sk LSHIFT>, <&caps_word>;
-
-            mods = <(MOD_LSFT)>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
         timeout-ms = <20>;
