@@ -1,4 +1,7 @@
 draw_config:
+  charybdis:
+    keymap: config/charybdis.json
+    physical_layout: default_transform
   key_w: 60
   key_h: 56
   split_gap: 30.0
