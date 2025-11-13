@@ -55,8 +55,8 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - {t: SPACE, h: Nav}
-  - LEFT CONTROL
   - Num
+  - LEFT CONTROL
   Nav:
   - ''
   - ''
