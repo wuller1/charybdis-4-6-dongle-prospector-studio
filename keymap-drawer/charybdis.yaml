@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
+layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
   Base:
   - '`'
