@@ -194,3 +194,7 @@ combos:
   k: M CLK
 - p: [43, 44]
   k: RIGHT CONTROL
+- p: [39, 40]
+  k: LEFT CONTROL
+- p: [39, 38]
+  k: LEFT ALT

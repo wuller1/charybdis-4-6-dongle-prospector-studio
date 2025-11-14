@@ -80,6 +80,16 @@
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <43 44>;
         };
+
+        left_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <39 40>;
+        };
+
+        left_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <39 38>;
+        };
     };
 
     chosen { zmk,physical-layout = &charybdis_6col_layout; };
