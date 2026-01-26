@@ -163,19 +163,6 @@
             >;
         };
 
-        Sym {
-            label = "Symbol";
-            display-name = "Symbol";
-            bindings = <
-&trans        &trans    &trans    &trans     &sys_reset  &bootloader    &trans  &trans  &trans  &trans   &trans    &trans
-&trans        &trans    &kp UP    &trans     &trans      &trans         &kp N7  &kp N8  &kp N9  &kp N0   &kp HOME  &kp F1
-&trans        &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &trans         &kp N4  &kp N5  &kp N6  &none    &trans    &kp F10
-&kp LEFT_ALT  &trans    &trans    &trans     &kp MINUS   &kp PLUS       &kp N1  &kp N2  &kp N3  &kp DOT  &trans    &kp F20
-                                  &trans     &trans      &trans         &trans  &trans
-                                             &trans      &trans         &trans
-            >;
-        };
-
         Num {
             label = "Number";
             display-name = "Number";
@@ -186,6 +173,19 @@
 &trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS    &kp PLUS    &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                           &trans    &trans    &trans       &trans       &trans
                                     &trans    &trans       &trans
+            >;
+        };
+
+        Fun {
+            label = "Function";
+            display-name = "Function";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sl 3     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
             >;
         };
 
