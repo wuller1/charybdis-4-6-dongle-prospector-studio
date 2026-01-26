@@ -180,12 +180,12 @@
             label = "Function";
             display-name = "Function";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 0     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&kp F12    &kp F1        &kp F2        &kp F3         &kp F4        &kp F5           &kp F6         &kp F7  &kp F8  &kp F9  &kp F10        &kp F11
+&kp GRAVE  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &none          &kp N7  &kp N8  &kp N9  &kp MINUS      &kp RBKT
+&kp CAPS   &none         &kp LS(STAR)  &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(CARET)    &kp LS(UNDER)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)   &kp EQUAL
+&kp LSHFT  &kp LBKT      &kp RBKT      &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(AMPS)     &kp LS(PIPE)   &kp N1  &kp N2  &kp N3  &kp LS(QMARK)  &kp RSHFT
+                                       &none          &none         &none            &none          &kp N0
+                                                      &none         &none            &none
             >;
         };
 
