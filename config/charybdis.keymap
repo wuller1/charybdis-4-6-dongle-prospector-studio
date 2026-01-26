@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define MOUSE 1
@@ -93,55 +94,50 @@
         timeout-ms = <20>;
         require-prior-idle-ms = <250>;
 
-        combo_reset_layer_left {
-            key-positions = <20 24>;
-            bindings = <&to 0>;
-        };
-
-        combo_reset_layer_right {
-            key-positions = <25 29>;
-            bindings = <&to 0>;
-        };
-
-        combo_reset_central {
-            key-positions = <32 33>;
+        bootloader {
+            key-positions = <0 11>;
             bindings = <&bootloader>;
+        };
+
+        studio_unlock {
+            key-positions = <0 4>;
+            bindings = <&studio_unlock>;
+        };
+
+        scroll {
+            key-positions = <44 45>;
+            bindings = <&tog 3>;
             require-prior-idle-ms = <2000>;
         };
 
-        combo_normal {
-            key-positions = <7 8>;
-            bindings = <&to 0>;
+        enter {
+            key-positions = <20 21>;
+            bindings = <&kp ENTER>;
         };
 
-        combo_fn {
-            key-positions = <27 28>;
-            bindings = <&sl 0>;
+        backspace {
+            key-positions = <19 20>;
+            bindings = <&kp BACKSPACE>;
         };
 
-        combo_genshin {
-            key-positions = <5 9>;
-            bindings = <&to 3>;
+        delete {
+            key-positions = <15 14>;
+            bindings = <&kp DELETE>;
         };
 
-        combo_esc {
-            key-positions = <1 2>;
-            bindings = <&kp ESCAPE>;
+        left_click {
+            key-positions = <31 32>;
+            bindings = <&mkp LCLK>;
         };
 
-        combo_tab {
-            key-positions = <2 3>;
-            bindings = <&kp TAB>;
+        right_click {
+            key-positions = <32 33>;
+            bindings = <&mkp RCLK>;
         };
 
-        combo_cdel {
-            key-positions = <11 12>;
-            bindings = <&kp LC(BACKSPACE)>;
-        };
-
-        combo_unlock {
-            key-positions = <0 4>;
-            bindings = <&studio_unlock>;
+        middle_click {
+            key-positions = <34 33>;
+            bindings = <&mkp MCLK>;
         };
     };
 

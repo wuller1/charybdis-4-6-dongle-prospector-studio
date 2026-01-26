@@ -28,8 +28,8 @@ layers:
   - ESC
   - A
   - S
-  - {t: D, type: held}
-  - {t: F, type: held}
+  - D
+  - F
   - G
   - H
   - J
@@ -174,23 +174,21 @@ layers:
   Game: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
-- p: [20, 24]
-  k: {t: Base, h: toggle}
-- p: [25, 29]
-  k: {t: Base, h: toggle}
-- p: [32, 33]
+- p: [0, 11]
   k: BOOT LDR
-- p: [7, 8]
-  k: {t: Base, h: toggle}
-- p: [27, 28]
-  k: {t: Base, h: sticky}
-- p: [5, 9]
-  k: {t: Game, h: toggle}
-- p: [1, 2]
-  k: ESCAPE
-- p: [2, 3]
-  k: TAB
-- p: [11, 12]
-  k: Ctl+ BACK SPACE
 - p: [0, 4]
   k: ZMK Studio
+- p: [44, 45]
+  k: {t: Game, h: toggle}
+- p: [20, 21]
+  k: ENTER
+- p: [19, 20]
+  k: BACK SPACE
+- p: [15, 14]
+  k: DELETE
+- p: [31, 32]
+  k: L CLK
+- p: [32, 33]
+  k: R CLK
+- p: [34, 33]
+  k: M CLK
