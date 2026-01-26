@@ -95,12 +95,12 @@
 
         combo_reset_layer_left {
             key-positions = <20 24>;
-            bindings = <&to 5>;
+            bindings = <&to 4>;
         };
 
         combo_reset_layer_right {
             key-positions = <25 29>;
-            bindings = <&to 5>;
+            bindings = <&to 4>;
         };
 
         combo_reset_central {
@@ -116,12 +116,12 @@
 
         combo_fn {
             key-positions = <27 28>;
-            bindings = <&sl 3>;
+            bindings = <&sl 0>;
         };
 
         combo_genshin {
             key-positions = <5 9>;
-            bindings = <&to 4>;
+            bindings = <&to 3>;
         };
 
         combo_esc {
@@ -167,12 +167,12 @@
             label = "Number";
             display-name = "Number";
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans       &bootloader  &sys_reset  &trans           &trans    &trans    &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET    &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DEL
-&trans  &trans    &trans  &trans    &trans    &trans       &trans       &trans      &trans           &trans    &trans    &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS    &kp PLUS    &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans    &trans       &trans       &trans
-                                    &trans    &trans       &trans
+&trans          &trans  &trans         &trans         &trans    &trans     &bootloader  &none     &trans           &trans    &trans    &trans
+&kp TAB         &none   &kp LC(RIGHT)  &none          &none     &none      &kp CARET    &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DEL
+&kp ESCAPE      &trans  &kp LC(LEFT)   &kp LC(RIGHT)  &kp HOME  &kp END    &trans       &trans    &trans           &trans    &trans    &trans
+&kp LEFT_SHIFT  &trans  &trans         &trans         &trans    &trans     &kp MINUS    &kp PLUS  &kp LBRC         &kp RBRC  &kp PIPE  &kp RIGHT_SHIFT
+                                       &trans         &trans    &trans     &trans       &trans
+                                                      &trans    &trans     &trans
             >;
         };
 
@@ -182,20 +182,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 3     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
-        Fun {
-            label = "Function";
-            display-name = "Function";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 3     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sl 0     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
@@ -208,7 +195,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 3     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sl 0     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
@@ -221,7 +208,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 3     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sl 0     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
