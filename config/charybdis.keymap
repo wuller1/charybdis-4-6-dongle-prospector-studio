@@ -95,12 +95,12 @@
 
         combo_reset_layer_left {
             key-positions = <20 24>;
-            bindings = <&to 4>;
+            bindings = <&to 0>;
         };
 
         combo_reset_layer_right {
             key-positions = <25 29>;
-            bindings = <&to 4>;
+            bindings = <&to 0>;
         };
 
         combo_reset_central {
@@ -192,19 +192,6 @@
         Button {
             label = "Game";
             display-name = "Game";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 0     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
-        Reset {
-            label = "Reset";
-            display-name = "Reset";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
