@@ -176,7 +176,7 @@
             >;
         };
 
-        Fun {
+        Sym {
             label = "Function";
             display-name = "Function";
             bindings = <
