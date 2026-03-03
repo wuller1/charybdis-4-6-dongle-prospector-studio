@@ -107,7 +107,6 @@
         scroll {
             key-positions = <44 45>;
             bindings = <&tog 3>;
-            require-prior-idle-ms = <2000>;
         };
 
         enter {
