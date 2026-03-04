@@ -190,5 +190,5 @@ combos:
   k: L CLK
 - p: [32, 33]
   k: R CLK
-- p: [34, 33]
+- p: [43, 44]
   k: M CLK

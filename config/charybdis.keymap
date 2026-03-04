@@ -135,7 +135,7 @@
         };
 
         middle_click {
-            key-positions = <34 33>;
+            key-positions = <43 44>;
             bindings = <&mkp MCLK>;
         };
     };
